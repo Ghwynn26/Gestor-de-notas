@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notas App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Gestor de Notas</h1>
+    <div class="note-input">
+      <textarea id="note-text" placeholder="Escribe tu nota aquí..."></textarea>
+      <select id="category-select">
+        <option value="General">General</option>
+        <option value="Trabajo">Trabajo</option>
+        <option value="Personal">Personal</option>
+        <option value="Ideas">Ideas</option>
+      </select>
+      <button id="add-note">Añadir Nota</button>
+    </div>
+    <button id="export-notes">Exportar Notas</button>
+    <div id="notes-list"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
